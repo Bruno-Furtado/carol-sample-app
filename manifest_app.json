@@ -1,0 +1,32 @@
+{
+  "batch": {
+    "processes": [{
+      "algorithmDescription": {
+        "en-US": "Sample App",
+        "pt-BR": "Exemplo de App"
+      },
+      "algorithmName": "sample_app",
+      "algorithmTitle": {
+        "en-US": "Just a sample app.",
+        "pt-BR": "Apenas um exemplo de app."
+      },
+      "dataModels": [],
+      "instanceProperties": {
+        "properties": {
+          "dockerName": "sample_app",
+          "instanceType": "c1.micro",
+          "preemptible": false
+        }
+      },
+      "name": "sample_app"
+    }]
+  },
+  "docker": [{
+    "dockerName": "sample_app",
+    "dockerTag": "0.0.1",
+    "gitBranch": "main",
+    "gitPath": "/",
+    "gitDockerfileName": "Dockerfile",
+    "gitRepoUrl": "https://github.com/Bruno-Furtado/carol-sample-app"
+  }]
+}
